@@ -1,6 +1,6 @@
 {
   "name": "@doubtfire-lms/entity-service",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simplify the management of a rich domain models in single page web applications.",
   "main": "./lib/index.js",
   "scripts": {

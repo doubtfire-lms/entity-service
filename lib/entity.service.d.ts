@@ -1,7 +1,6 @@
 import { Entity } from './entity';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
-export declare var API_URL: string;
 export interface HttpOptions {
     headers?: HttpHeaders | {
         [header: string]: string | string[];
@@ -36,9 +35,10 @@ export declare abstract class EntityService<T extends Entity> {
      * @returns {string} The endpoint string format
      */
     protected abstract readonly endpointFormat: string;
+    private apiUrl;
     abstract entityName: string;
     get serverKey(): string;
-    constructor(httpClient: HttpClient);
+    constructor(httpClient: HttpClient, apiUrl: string);
     /**
      * Helper function to convert end point format strings to final path
      *
