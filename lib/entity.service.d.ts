@@ -1,6 +1,7 @@
 import { Entity } from './entity';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
+export declare var API_URL: string;
 export interface HttpOptions {
     headers?: HttpHeaders | {
         [header: string]: string | string[];
