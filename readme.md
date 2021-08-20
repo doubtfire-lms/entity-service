@@ -58,16 +58,7 @@ npm install @doubtfire-lms/entity-service
   
 
 ```javascript
-import {isGuid} from '@doubtfire-lms/entity-service'
-or
-var isGuid = require('@doubtfire-lms/entity-service').isGuid
-
-var value =  'cde88ae8-2300-4f6b-a67a-292efecfe928';
-
-var isValueGuid  =  isGuid( value );
-
-*returns true*
-
+to come
 ```
 
   
