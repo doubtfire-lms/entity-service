@@ -79,18 +79,6 @@ var isValueGuid  =  isGuid( value );
 👤 **Andrew Cain**
 👤 **Jake Renzella**
 
-  
-
-* Website: saqibnoorani.com
-
-* Twitter: [@saqibnoorani](https://twitter.com/saqibnoorani)
-
-* Github: [@saqibnoorani](https://github.com/saqibnoorani)
-
-* LinkedIn: [@saqibnoorani](https://linkedin.com/in/saqibnoorani)
-
-  
-
 ## Show your support
 
   
@@ -103,7 +91,7 @@ Give a ⭐️ if this project helped you!
 
   
 
-Copyright © 2021 [Doubtfire LMS](https://github.com/doubtfire-lms).<br  />
+Copyright © 2021 [Doubtfire LMS](https://github.com/doubtfire-lms).<br />
 
 This project is [AGPL](https://github.com/doubtfire-lms/entity-service/blob/master/LICENSE) licensed.
 
