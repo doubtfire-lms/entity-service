@@ -1,0 +1,32 @@
+{
+  "name": "@doubtfire-lms/entity-service",
+  "version": "1.0.0",
+  "description": "Simplify the management of a rich domain models in single page web applications.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+  },
+  "keywords": [
+    "domain",
+    "entity service",
+    "nodejs",
+    "typescript",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doubtfire-lms/entity-service.git"
+  },
+  "author": "Andrew Cain",
+  "license": "AGPL",
+  "devDependencies": {
+    "@types/node": "^12.20.15",
+    "@angular/common": "^12.1.4",
+    "@angular/compiler": "^12.1.4",
+    "@angular/core": "^12.1.4",
+    "rxjs": "~6.6.0",
+    "ts-node": "~10.0",
+    "typescript": "~4.2.4"
+  }
+}
