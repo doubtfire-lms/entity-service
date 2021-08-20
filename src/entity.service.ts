@@ -4,8 +4,6 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 
-export var API_URL: string;
-
 export interface HttpOptions {
   headers?:
     | HttpHeaders
@@ -46,6 +44,8 @@ export abstract class EntityService<T extends Entity> {
    */
   protected abstract readonly endpointFormat: string;
 
+  private apiUrl: string;
+
   abstract entityName: string;
   get serverKey(): string {
     return this.entityName
@@ -54,7 +54,9 @@ export abstract class EntityService<T extends Entity> {
       .toLowerCase();
   }
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient, apiUrl: string) {
+    this.apiUrl = apiUrl;
+  }
 
   /**
    * Helper function to convert end point format strings to final path
@@ -76,7 +78,7 @@ export abstract class EntityService<T extends Entity> {
 
     // Strip any missed keys
     path = path.replace(/:[\w-]*?:/, '');
-    return `${API_URL}/${path}`;
+    return `${this.apiUrl}/${path}`;
   }
 
   /**
