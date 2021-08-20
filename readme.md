@@ -4,9 +4,9 @@
 
 <p>
 
-<a  href="https://www.npmjs.com/package/df-entity-service"  target="_blank">
+<a  href="https://www.npmjs.com/package/@doubtfire-lms/entity-service"  target="_blank">
 
-<img  alt="Version"  src="https://img.shields.io/npm/v/df-entity-service.svg">
+<img  alt="Version"  src="https://img.shields.io/npm/v/@doubtfire-lms/entity-service.svg">
 
 </a>
 
@@ -37,7 +37,7 @@
 
   
 
-### 🏠 [Doubtfire Entity Service](https://www.npmjs.com/package/df-entity-service)
+### 🏠 [Doubtfire Entity Service](https://www.npmjs.com/package/@doubtfire-lms/entity-service)
 
   
 
@@ -47,7 +47,7 @@
 
 ```sh
 
-npm install df-entity-service
+npm install @doubtfire-lms/entity-service
 
 ```
 
@@ -58,9 +58,9 @@ npm install df-entity-service
   
 
 ```javascript
-import {isGuid} from 'df-entity-service'
+import {isGuid} from '@doubtfire-lms/entity-service'
 or
-var isGuid = require('df-entity-service').isGuid
+var isGuid = require('@doubtfire-lms/entity-service').isGuid
 
 var value =  'cde88ae8-2300-4f6b-a67a-292efecfe928';
 
