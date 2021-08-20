@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 
-var API_URL: string;
+export var API_URL: string;
 
 export interface HttpOptions {
   headers?:
